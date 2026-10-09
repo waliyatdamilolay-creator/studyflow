@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Create Account - StudyFlow</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="page-container">
+
+        <!-- Branding Section -->
+        <section class="branding">
+
+            <h1>StudyFlow</h1>
+
+            <h2>Start your study journey</h2>
+
+            <p>
+                Create your account and take control of your academic progress.
+            </p>
+
+            <div class="features">
+
+                <div class="feature">
+                    <h3>Plan your studies</h3>
+                    <p>
+                        Keep your academic tasks organized in one place.
+                    </p>
+                </div>
+
+                <div class="feature">
+                    <h3>Track your progress</h3>
+                    <p>
+                        See what you've completed and what still needs your attention.
+                    </p>
+                </div>
+
+                <div class="feature">
+                    <h3>Stay consistent</h3>
+                    <p>
+                        Build better study habits one task at a time.
+                    </p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Signup Section -->
+        <section class="login-section">
+
+            <div class="login-container">
+
+                <h2>Create an account ✨</h2>
+
+                <p>
+                    Join StudyFlow and start organizing your studies.
+                </p>
+
+
+                <form class="signup-form">
+
+                    <!-- Full Name -->
+                    <div class="form-group">
+
+                        <label for="fullname">Full name</label>
+
+                        <input
+                            type="text"
+                            id="fullname"
+                            name="fullname"
+                            placeholder="Enter your full name"
+                        >
+
+                    </div>
+
+
+                    <!-- Email -->
+                    <div class="form-group">
+
+                        <label for="signup-email">Email address</label>
+
+                        <input
+                            type="email"
+                            id="signup-email"
+                            name="email"
+                            placeholder="Enter your email"
+                        >
+
+                    </div>
+
+
+                    <!-- Password -->
+                    <div class="form-group">
+
+                        <label for="signup-password">Password</label>
+
+                        <input
+                            type="password"
+                            id="signup-password"
+                            name="password"
+                            placeholder="Create a password"
+                        >
+
+                    </div>
+
+
+                    <!-- Confirm Password -->
+                    <div class="form-group">
+
+                        <label for="confirm-password">Confirm password</label>
+
+                        <input
+                            type="password"
+                            id="confirm-password"
+                            name="confirm-password"
+                            placeholder="Confirm your password"
+                        >
+
+                    </div>
+
+
+                    <!-- Create Account Button -->
+                    <button type="submit">
+                        Create Account
+                    </button>
+
+                </form>
+
+
+                <!-- Login Link -->
+                <p class="signup-text">
+                    Already have an account?
+                    <a href="index.html">Log in</a>
+                </p>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 StudyFlow. All rights reserved.</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="signup.js"></script>
+
+</body>
+
+</html>
